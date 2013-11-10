@@ -147,7 +147,7 @@ _isroot=false
   # LS {{{
     alias ls='ls -hF --color=auto'
     alias lr='ls -R'                    # recursive ls
-    alias ll='ls -alh'
+    alias ll='ls -lh'
     alias la='ll -A'
     alias lm='la | more'
   #}}}
