@@ -32,9 +32,9 @@ _isroot=false
     W='\[\e[0m\]'
 
     if ! $_isroot; then
-      export PS1="$GY[$Y\u$GY@$P\h$W:$B\W$GY]$W\$ "
+      export PS1="$GY╔$GY($P\w$GY)$G\u$GY@$B\h$Y\n$GY╚═> $W\$ $P"
     else
-      export PS1="$GY[$R\u$GY@$P\h$W:$B\W$GY]$W# "
+	export PS1="$GY╔$GY($P\w$GY)$R\u$GY@$B\h$Y\n$GY╚═> $W\# $P"
     fi
   else
     export TERM='xterm-color'
