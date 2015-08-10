@@ -17,5 +17,5 @@ MiscTabCloseMiddleClick=TRUE
 MiscTabPosition=GTK_POS_TOP
 MiscHighlightUrls=TRUE
 BackgroundDarkness=0.830000
-FontName=Droid Sans Mono 11
+FontName=DejaVu Sans Mono 9
 
